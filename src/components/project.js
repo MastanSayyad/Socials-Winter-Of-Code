@@ -1,5 +1,5 @@
 import { React, Component } from "react";
-import "./css/projects_new.scss";
+import "./css/projects_new.css";
 import { projectsDataNewer } from "./js/2022projects";
 import { projectsDataLatest } from "./js/2021projects";
 import { projectsDataPrevOne } from "./js/2020projects";
