@@ -1,7 +1,7 @@
-import { React, Component } from "react";
+import React, { Component } from "react";
 import Particles from "react-particles-js";
 import { Snow } from "./snow";
-import "./css/home.scss";
+import "./css/home.css";
 import {
   registerItems,
   timelineItems,
@@ -36,7 +36,6 @@ class Home extends Component {
     this.state = {
       width: window.innerWidth,
       height: window.innerHeight,
-      page: "home",
     };
   }
 
