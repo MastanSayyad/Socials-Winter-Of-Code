@@ -1,5 +1,5 @@
 import { React, Component } from "react";
-import "../components/css/team2023.scss";
+import "../components/css/team2023.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import Aos from "aos";
