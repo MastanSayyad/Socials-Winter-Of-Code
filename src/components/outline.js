@@ -1,5 +1,5 @@
 import { React, Component } from "react";
-import "./css/outline.scss";
+import "./css/outline.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { navItems, socialMedia } from "./js/navFootData";
 import Aos from "aos";

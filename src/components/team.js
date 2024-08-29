@@ -1,7 +1,7 @@
 import { React, Component } from 'react';
 // import { Card, CardImg, CardImgOverlay } from 'reactstrap';
 // import Marquee from "react-fast-marquee";
-import './css/team.scss'
+import './css/team.css'
 import { currentTeam } from './js/2021team';
 import { pastTeam } from './js/2020team';
 import { newTeam } from './js/2022team';

@@ -1,5 +1,5 @@
 import { React, Component } from "react";
-import "../components/css/sponsors.scss";
+import "../components/css/sponsors.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
