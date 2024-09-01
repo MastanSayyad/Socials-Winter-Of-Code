@@ -3,7 +3,7 @@
  @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
  :root {
 	 --winter-w1: #eceef1;
-	 --winter-w2: #081b24;
+	 --winter-w2: #013e80;
 	 --winter-w3: #8a9c9b;
 	 --winter-w4: #acc4d4;
 	 --winter-w5: #d3e4e3;
@@ -295,7 +295,7 @@
  .p-search-section {
 	 position: relative;
 	 width: 100%;
-	 background: #0c2835;
+	 background: #042d59;
 	/* background: var(--winter-w3);
 	 */
 	 box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.25);
