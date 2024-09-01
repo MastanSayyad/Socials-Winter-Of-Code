@@ -24,18 +24,18 @@ export const navItems = [
 export const socialMedia = [
   {
     socialLink: "mailto:socialwinterofcodee@gmail.com",
-    socialIcon: "fa fa-envelope",
+    socialIcon: "fas fa-envelope", 
   },
   {
     socialLink: "https://www.linkedin.com/company/script-winter-of-code",
-    socialIcon: "fa fa-linkedin",
+    socialIcon: "fab fa-linkedin", 
   },
   {
     socialLink: "https://twitter.com/SWOC12",
-    socialIcon: "fa fa-twitter",
+    socialIcon: "fab fa-twitter", 
   },
   {
     socialLink: "https://youtube.com/@SocialWinterofCode?si=evyJ-XolqCjwF3Z5",
-    socialIcon: "fa fa-youtube",
+    socialIcon: "fab fa-youtube", 
   },
 ];
