@@ -102,13 +102,13 @@
 
         .header-logo {
             width: 100%;
-            padding-top: 2rem;
             display: flex;
             justify-content: center;
         }
 
         .header-logo img {
-            width: 250px;
+            width: 260px;
+            margin-top: -18px;
         }
 
         .about-swoc {
@@ -1109,6 +1109,7 @@
 
             .header-logo img {
                 width: 200px;
+                margin-top: 0;
             }
 
             .about-swoc {

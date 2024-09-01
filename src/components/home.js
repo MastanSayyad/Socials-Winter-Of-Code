@@ -78,7 +78,7 @@ class Home extends Component {
             <h1>Social Winter of Code</h1>
             <div className="header-logo">
               <a href="./index.html">
-                <img src="./img/logo-2.png" />
+                <img src="/SWOC_W_Black.png" />
               </a>
             </div>
           </div>
