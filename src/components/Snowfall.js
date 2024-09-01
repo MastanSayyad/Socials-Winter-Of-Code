@@ -11,7 +11,7 @@ const Snowfall = () => {
       if (window.innerWidth <= 768) { // Mobile view 
         setNumFlakes(20); 
       } else {
-        setNumFlakes(50); 
+        setNumFlakes(40); 
       }
     };
 
