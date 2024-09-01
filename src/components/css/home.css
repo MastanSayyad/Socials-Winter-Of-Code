@@ -104,7 +104,6 @@
             width: 100%;
             display: flex;
             justify-content: center;
-            margin-bottom: 20px;
         }
 
         .header-logo img {
@@ -1110,6 +1109,7 @@
 
             .header-logo img {
                 width: 200px;
+                margin-top: 0;
             }
 
             .about-swoc {
