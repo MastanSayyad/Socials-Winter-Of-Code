@@ -19,25 +19,25 @@ label {
 }
 
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 10px;
 }
 
 /* Track */
 
 ::-webkit-scrollbar-track {
-    background: #f5f5f5;
+    background: #ffffff;
 }
 
 /* Handle */
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(160, 160, 160);
+    background: #064a93;
 }
 
 /* Handle on hover */
 
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(80, 80, 80);
+    background: #011830;
 }
 
 .apply-button {

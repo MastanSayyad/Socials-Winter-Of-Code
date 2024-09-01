@@ -1,0 +1,26 @@
+.snowflake {
+    position: absolute;
+    top: -10px;
+    pointer-events: none;
+    font-size: 24px;
+    color: #00f; 
+    user-select: none;
+    z-index: 1000;
+    opacity: 0.8;
+    transform: rotate(0deg);
+    font-family: Arial, sans-serif; 
+  }
+  
+  @keyframes snowflake-fall {
+    0% {
+      transform: translateY(-100vh) rotate(0deg);
+    }
+    100% {
+      transform: translateY(100vh) rotate(360deg);
+    }
+  }
+  
+  .snowflake {
+    animation: snowflake-fall linear infinite;
+  }
+  

@@ -260,7 +260,6 @@
 	 font-family: 'Poppins';
 	 font-size: 18px;
 	 font-weight: 600;
-	 color: rgba(0, 0, 0, .54);
 	 margin-right: 70px;
 }
  .f-bottom-right p {
@@ -268,7 +267,6 @@
 	/* margin-bottom: 0.5rem;
 	 */
 	 font-family: 'Poppins';
-	 color: rgba(0, 0, 0, 0.85);
 	 font-weight: 400;
 }
  .f-media a {
