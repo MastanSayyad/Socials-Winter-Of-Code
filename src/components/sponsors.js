@@ -61,7 +61,7 @@ class Sponsors2023 extends Component {
                 Discover the amazing companies that support us.
               </p>
               <a
-                href="https://drive.google.com/file/d/1MTdrzl0jZ8YiWXWytSJ_LCUmY15nyNmH/view?usp=sharing"
+                href="https://drive.google.com/file/d/1jJZyOLimE0Qhk-GxuR5qumm_m9mESwfI/view?usp=sharing"
                 target="_blank" // Optional: Open link in a new tab
                 rel="noopener noreferrer" // Recommended for security when opening in a new tab
               >
