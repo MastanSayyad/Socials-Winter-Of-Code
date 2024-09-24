@@ -31,7 +31,7 @@ export const socialMedia = [
     socialIcon: "fab fa-linkedin", 
   },
   {
-    socialLink: "https://twitter.com/SWOC12",
+    socialLink: "https://x.com/_SWOC_",
     socialIcon: "fab fa-twitter", 
   },
   {
