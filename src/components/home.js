@@ -92,8 +92,7 @@ class Home extends Component {
               About <span>SWOC</span>
             </h3>
             <p>
-              Social Winter of Code is an open-source program envisioned by the
-              Social. It aims to bring students into the world of open source
+              Social Winter of Code is an open-source program Which aims to bring students into the world of open source
               development and see the power of unified problem-solving in real
               time. The projects that we will host have been carefully
               hand-picked to invigorate creative thinking and encourage
@@ -124,19 +123,19 @@ class Home extends Component {
             <div className="number-card">
               <h2 className="number-title">Total Projects</h2>
               <div className="countup">
-                <CountUp start={1} end={200} duration={10} />
+                <CountUp start={1} end={300} duration={10} />
               </div>
             </div>
             <div className="number-card">
               <h2 className="number-title">Total Participants</h2>
               <div className="countup">
-                <CountUp start={1} end={12000} duration={10} />
+                <CountUp start={1} end={50000} duration={10} />
               </div>
             </div>
             <div className="number-card">
               <h2 className="number-title">Total Mentors</h2>
               <div className="countup">
-                <CountUp start={1} end={2000} duration={10} />
+                <CountUp start={1} end={5000} duration={10} />
               </div>
             </div>
           </div>
@@ -187,8 +186,7 @@ class Home extends Component {
             {/* Note for those unable to participate in SWOC */}
             <div className="note-section">
               <p>
-                Those who were unable to participate in SWOC, don't worry! Stay
-                tuned; we are soon coming with SSOC in some months.
+              Apply Before the Registration Timeline ends no requests will be entertained after registrations are closed.
               </p>
             </div>
           </div>
@@ -238,8 +236,7 @@ class Home extends Component {
             <div className="overview-content">
               <h3>Overview</h3>
               <p>
-                Social Winter Of Code is the 2 month long open source program by
-                Social India , with the aim to introduce more and more people to
+                Social Winter Of Code is the 2 month long open source program, with the aim to introduce more and more people to
                 the world of Open source. In this program all the selected
                 participants will get a chance to work on various exciting
                 projects under the guidance of experienced Mentors.
