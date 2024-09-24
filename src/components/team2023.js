@@ -71,68 +71,13 @@ class Team2023 extends Component {
         image: jaySaadana,
       },
       {
-        name: "Abhishek Sharma",
-        role: "Program Manager",
-        linkedin: "https://www.linkedin.com/in/abhishek-sharma-aa06a9183",
-        github: "https://github.com/abhisheks008",
-        image: abhishekSharma,
-      },
-      {
-        name: "Anurag Wagh",
-        role: "Program Manager",
-        linkedin: "https://www.linkedin.com/in/anuragwagh23",
-        github: "https://github.com/Anuragwagh",
-        image: anuraghWagh,
-      },
-      {
         name: "Vikash Kumar Yadav",
         role: "PR Team",
         linkedin: "https://www.linkedin.com/in/vikashkumar-yadav/",
         github: "https://www.linkedin.com/in/vikashkumar-yadav/",
         image: vikasKumarYadav,
       },
-      {
-        name: "Abhishek Anand",
-        role: "Web Developer",
-        linkedin: "https://www.linkedin.com/in/abhishek-anand-284a9520a/",
-        github: "https://github.com/picturepatch07",
-        image: abhishekAnand,
-      },
-      {
-        name: "Nitish Sheoran",
-        role: "Web Developer",
-        linkedin: "https://www.linkedin.com/in/nitishsheoran/",
-        github: "https://github.com/iNitishSheoran",
-        image: nitishSheoran,
-      },
-      {
-        name: "Mohit Singh",
-        role: "Community Manager",
-        linkedin: "https://www.linkedin.com/in/mohit-singh-812916223/",
-        github: "https://github.com/mohitsingh1011",
-        image: mohitSingh,
-      },
-      {
-        name: "Hariprasad Sakhare",
-        role: "Community Manager",
-        linkedin: "Https://www.linkedin.com/in/hariprasad-sakhare-8b6834230",
-        github: "https://github.com/hprasadsakhare",
-        image: hariprasadSakhare,
-      },
-      {
-        name: "Pritam Nandi",
-        role: "Graphic Designer",
-        linkedin: "https://www.linkedin.com/in/pritamnandi",
-        github: "https://github.com/pritam1923",
-        image: pritamNandi,
-      },
-      {
-        name: "Sovan Mohanty",
-        role: "Outreach & Management",
-        linkedin: "https://www.linkedin.com/in/sovan-mohanty-a32b64237",
-        github: "https://github.com/sovanmohan",
-        image: sovan,
-      },
+     
     ];
 
     return (
