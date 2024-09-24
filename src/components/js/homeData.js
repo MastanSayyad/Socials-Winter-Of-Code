@@ -18,9 +18,9 @@ export const registerItems = [
     cardTitle: "Project",
     cardText: `All open-source organizations, Project maintainers are welcome to 
         mentor budding open-source enthusiasts from all different 
-        backgrounds. Find students and professionals that share your 
+        backgrounds. Find students and professionals that have skills and share your 
         vision.`,
-    applyLink: "https://lnkd.in/dMjMQ4aN",
+    applyLink: "#",
     // applyLink: "https://forms.gle/eyQM8eJeSWKr3tCD6",
     applyStatus: "Apply Here",
   },
@@ -29,7 +29,7 @@ export const registerItems = [
     cardText: `Whether you’re a newbie or a seasoned professional, we have a 
         space for everyone. Apply now to become a part of something 
         exciting!`,
-    applyLink: "https://hack2skill.com/hack/swoc",
+    applyLink: "#",
     applyStatus: "Apply Here",
   },
   {
@@ -37,8 +37,8 @@ export const registerItems = [
     cardText: `Are you an expert in one (or more) of the projects? Then be a 
         beacon of light for our participants! As a mentor, you will guide 
         one team with your insights and experience all through their 
-        hackathon journey.`,
-    applyLink: "https://forms.gle/bsSmujNCDUH33QET9",
+        Open Source & Hackathon journey.`,
+    applyLink: "#",
     // applyLink: "https://docs.google.com/forms/d/19qbZg1a_DSUAKizSxO_8RoAJCCu9jd-Jms17MmAWP4k/edit?ts=63427042",
     applyStatus: "Apply Here",
   },
@@ -46,39 +46,44 @@ export const registerItems = [
 
 export const timelineItems = [
   {
-    timelineDate: "15 Aug 2023",
+    timelineDate: "1 Oct 2024",
     timelineText: `Participant Registration starts`,
   },
   {
-    timelineDate: "20 Aug 2023",
+    timelineDate: "5 Oct 2024",
     timelineText: `Project and Mentor Registration Starts.`,
   },
-  {
-    timelineDate: "15 Dec 2023",
-    timelineText: `Project Registrations ends`,
+   {
+    timelineDate: "1 Nov 2024",
+    timelineText: `Mini Events/ Sessions/ Workshops Starts.`,
   },
   {
-    timelineDate: "20 Dec 2023",
-    timelineText: `Participants and mentors registrations ends`,
+    timelineDate: "15 Dec 2024",
+    timelineText: `Project & Mentor Registrations ends`,
   },
-  {
-    timelineDate: "22 Dec 2023",
-    timelineText: `Acceptance Mails Send`,
-  },
-  {
-    timelineDate: "22 Dec 2023",
+   {
+    timelineDate: "24 Dec 2024",
     timelineText: `Projects Announcement`,
   },
   {
-    timelineDate: "1 Jan 2024",
+    timelineDate: "25 Dec 2024",
+    timelineText: `Participants registrations ends`,
+  },
+  {
+    timelineDate: "26 Dec 2024",
+    timelineText: `Acceptance Mails Send`,
+  },
+ 
+  {
+    timelineDate: "1 Jan 2025",
     timelineText: `SWoC Begins`,
   },
   {
-    timelineDate: "28 Feb 2024",
+    timelineDate: "28 Feb 2025",
     timelineText: `SWoC Ends`,
   },
   {
-    timelineDate: "15 Mar 2024",
+    timelineDate: "15 Mar 2025",
     timelineText: `Results Announcement`,
   },
 ];
@@ -180,25 +185,17 @@ export const PSponsors = [
 
 export const Sponsors = [
   //
-  {
-    sponsorLink: "https://github.com/",
-    sponsorImg: "./img/logos/GitHub_Logo.png",
-  },
-  {
-    sponsorLink: "https://quine.sh/",
-    sponsorImg: "./img/logos/quine.svg",
-  },
+  // {
+  //   sponsorLink: "https://github.com/",
+  //   sponsorImg: "./img/logos/GitHub_Logo.png",
+  // },
+  // {
+  //   sponsorLink: "https://quine.sh/",
+  //   sponsorImg: "./img/logos/quine.svg",
+  // },
   {
     sponsorLink: "https://gen.xyz/",
     sponsorImg: "./img/logos/xyz-logo.png",
-  },
-  {
-    sponsorLink: "/",
-    sponsorImg: endless,
-  },
-  {
-    sponsorLink: "/",
-    sponsorImg: codingninja,
   },
   {
     sponsorLink: "/",
@@ -207,80 +204,35 @@ export const Sponsors = [
 ];
 
 export const CommunityPartners = [
-  {
-    sponsorLink: "https://www.linkedin.com/company/mlsafabtech/",
-    sponsorImg: "./img/logos/febtech.png",
-  },
-  {
-    sponsorLink: "/",
-    sponsorImg: "./img/logos/gdscldce.png",
-  },
-  {
-    sponsorLink: "/",
-    sponsorImg: "./img/logos/SOSTech.png",
-  },
-  {
-    sponsorLink: "/",
-    sponsorImg: "./img/logos/gdsckota.png",
-  },
-  {
-    sponsorLink: "/",
-    sponsorImg: "./img/logos/GDSCTINT.png",
-  },
-  {
-    sponsorLink: "/",
-    sponsorImg: "./img/logos/gdscbcrec.png",
-  },
-  {
-    sponsorLink: "/",
-    sponsorImg: "./img/logos/gdscgnit.jpg",
-  },
-  {
-    sponsorLink: "/",
-    sponsorImg: "./img/logos/InfinityAI.png",
-  },
-  {
-    sponsorLink: "https://www.linkedin.com/company/eduhub-community/",
-    sponsorImg: "./img/logos/Eduhub.png",
-  },
-  {
-    sponsorLink: "/",
-    sponsorImg: "./img/logos/GDSCMakaut.png",
-  },
-  {
-    sponsorLink: "/",
-    sponsorImg: "./img/logos/GDSCMysore.png",
-  },
-  {
-    sponsorLink: "/",
-    sponsorImg: "./img/logos/gdsc-tecb.png",
-  },
-  {
-    sponsorLink: "/",
-    sponsorImg: "./img/logos/gdscaliah.png",
-  },
-  {
-    sponsorLink: "/",
-    sponsorImg: "./img/logos/gdsckiet.png",
-  },
-  {
-    sponsorLink: "/",
-    sponsorImg: "./img/logos/GDSCs.jpg",
-  },
+  // {
+  //   sponsorLink: "https://www.linkedin.com/company/mlsafabtech/",
+  //   sponsorImg: "./img/logos/febtech.png",
+  // },
+  // {
+  //   sponsorLink: "/",
+  //   sponsorImg: "./img/logos/gdscldce.png",
+  // },
+  // {
+  //   sponsorLink: "/",
+  //   sponsorImg: "./img/logos/SOSTech.png",
+  // },
+  
+  
+  
 ];
 
 export const PlatformPartners = [
-  {
-    sponsorLink: "/",
-    sponsorImg: hack2skill,
-  },
+  // {
+  //   sponsorLink: "/",
+  //   sponsorImg: hack2skill,
+  // },
 ];
 
 export const InnovationPartners = [
-  {
-    sponsorLink: "/",
-    sponsorImg: whereUElevatelogo,
-  },
+  // {
+  //   sponsorLink: "/",
+  //   sponsorImg: whereUElevatelogo,
+  // },
 ];
 
 export const PrizeData = [
@@ -289,11 +241,6 @@ export const PrizeData = [
     desc: "Top 10 Contributors",
     image: faviacon,
   },
-  // {
-  //   title: "Linkedin Premium free 1 year",
-  //   desc: "Top 2",
-  //   image: Lin,
-  // },
   {
     title: ".xyz domains",
     desc: "Top 40",
@@ -303,11 +250,6 @@ export const PrizeData = [
     title: "Participation Certificate",
     desc: "For all.....",
     image: faviacon,
-  },
-  {
-    title: "Swags from coding ninja",
-    desc: "Top 1",
-    image: codingninja1,
   },
 ];
 
