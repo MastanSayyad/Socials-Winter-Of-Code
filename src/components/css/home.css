@@ -83,13 +83,15 @@
             background: var(--winter-w2);
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 3vw));
             min-height: 450px;
+            overflow: hidden;
         }
 
         .main-header-content {
             justify-content: center;
             color: #fff;
             width: 100%;
-            padding: 9rem 7rem 11rem;
+            padding: 9rem 0rem 6rem;
+            position: relative;
         }
 
         .main-header-content h1 {
@@ -99,7 +101,123 @@
             align-self: center;
             text-align: center;
         }
-
+        .header-bg{
+            position: absolute;
+        }
+        .header-bg-component-1{
+            width: 45rem;
+            bottom:-10rem;
+            height:29rem;
+            rotate:10deg;
+            z-index: 20;
+            left:0px;
+        }
+        .header-bg-component-2{
+            width: 24rem;
+            top: 0px;
+            right: 0px;
+        }
+        .header-bg-component-3{
+            width: 16rem;
+            top: 0px;
+            left: -125px;
+        }
+        .header-bg-component-4{
+            width: 20rem;
+            bottom:-4rem;
+            right: -9rem;
+            z-index: 10;
+        }
+        .header-bg-component-5{
+            width: 20rem;
+            bottom:-5rem;
+            right: -7rem;
+            z-index: 5;
+            opacity: 50%;
+        }
+        .header-bg-component-6{
+            width: 18rem;
+            bottom:-5rem;
+            right: -2rem;
+            z-index: 0;
+            opacity: 50%;
+        }
+        .header-bg-component-7{
+            width: 40rem;
+            bottom: -8rem;
+            right:20rem;
+            z-index: 10;
+        }
+        .header-bg-component-8{
+            width: 40rem;
+            bottom: -8.7rem;
+            right:-12rem;
+            height:15rem;
+            z-index: 10;
+        }
+        .header-bg-component-9{
+            width: 2rem;
+            top: 8rem;
+            right: 26rem;
+        }
+        @media (max-width: 1100px) {
+            .header-bg-component-1{
+                width: 40rem;
+                height: 20rem;
+            }
+            .header-bg-component-2{
+                width: 20rem;
+                top:-5rem;
+            }
+            .header-bg-component-3{
+                width: 12rem;
+                left:-4rem;
+                top:-5rem;
+            }
+            .header-bg-component-4{
+                width: 14rem;
+            }
+            .header-bg-component-5{
+                width: 14rem;
+            }
+            .header-bg-component-6{
+                width: 12rem;
+            }
+            .header-bg-component-7{
+                width: 38rem;
+                bottom: -10rem;
+                right: 15rem;
+            }
+            .header-bg-component-8{
+                width: 35rem;
+                bottom: -9rem;
+                height: 10rem;
+                right:-13.5rem;
+            }
+        }
+        @media (max-width: 768px) {
+            .header-bg-component-2{
+                width: 12rem;
+                top:-2rem;
+            }
+            .header-bg-component-3{
+                width: 7rem;
+                left:-3rem;
+                top:-2rem;
+            }
+            .header-bg-component-4{
+                width: 10rem;
+                right: -4rem;
+            }
+            .header-bg-component-5{
+                width: 10rem;
+                right: -2rem;
+            }
+            .header-bg-component-6{
+                width: 8rem;
+                right: 0rem;
+            }
+        }
         .header-logo {
             width: 100%;
             display: flex;
@@ -972,6 +1090,75 @@
             .testimonial {
                 padding: 15px !important;
                 margin: 9px !important;
+            }
+        }
+        
+        .join-follow {
+            text-align: center;
+            padding: 40px 0;
+            background-color: #f9f9f9;
+        }
+          
+        .join-title {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            font-weight: 600;
+            color: #333;
+        }
+          
+        .social-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+          
+        .social-buttons .btn {
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-weight: 500;
+            text-decoration: none;
+            color: white;
+            transition: transform 0.3s;
+        }
+          
+        .social-buttons .btn:hover {
+            transform: translateY(-3px);
+        }
+          
+        .icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+          
+        .linkedin {
+            background-color: #0077b5;
+        }
+          
+        .whatsapp {
+            background-color: #25D366;
+        }
+          
+        .twitter {
+            background-color: #1da1f2;
+        }
+          
+    
+        @media (max-width: 768px) {
+            .social-buttons {
+              flex-direction: column;
+              gap: 15px;
+              width: 100%;
+              align-items: center;
+              justify-content: center;
+            }
+          
+            .social-buttons .btn {
+                width: 15rem;
+              justify-content: center;
             }
         }
 

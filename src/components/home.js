@@ -28,7 +28,11 @@ import Devfoliobutton from "./Devfoliobutton";
 import CountUp from "react-countup";
 import dummyImage from "../components/img/dummy-image.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import {
+  faLinkedin,
+  faWhatsapp,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
 class Home extends Component {
   constructor(props) {
@@ -81,6 +85,51 @@ class Home extends Component {
                 <img src="/SWOC_W_Black.png" />
               </a>
             </div>
+            <img
+              src="/Bg-01.png"
+              alt="Bg"
+              className="header-bg header-bg-component-1"
+            />
+            <img
+              src="/Bg-02.png"
+              alt="Bg"
+              className="header-bg header-bg-component-2"
+            />
+            <img
+              src="/Bg-03.png"
+              alt="Bg"
+              className="header-bg header-bg-component-3"
+            />
+            <img
+              src="/Bg-04.png"
+              alt="Bg"
+              className="header-bg header-bg-component-4"
+            />
+             <img
+              src="/Bg-04.png"
+              alt="Bg"
+              className="header-bg header-bg-component-5"
+            />
+            <img
+              src="/Bg-04.png"
+              alt="Bg"
+              className="header-bg header-bg-component-6"
+            />
+            <img
+              src="/Bg-05.png"
+              alt="Bg"
+              className="header-bg header-bg-component-7"
+            />
+            <img
+              src="/Bg-05.png"
+              alt="Bg"
+              className="header-bg header-bg-component-8"
+            />
+            <img
+              src="/darksnowflake.png"
+              alt="Bg"
+              className="header-bg header-bg-component-9"
+            />
           </div>
         </header>
         {/* body */}
@@ -92,11 +141,12 @@ class Home extends Component {
               About <span>SWOC</span>
             </h3>
             <p>
-              Social Winter of Code is an open-source program Which aims to bring students into the world of open source
-              development and see the power of unified problem-solving in real
-              time. The projects that we will host have been carefully
-              hand-picked to invigorate creative thinking and encourage
-              collaboration among all participants.
+              Social Winter of Code is an open-source program Which aims to
+              bring students into the world of open source development and see
+              the power of unified problem-solving in real time. The projects
+              that we will host have been carefully hand-picked to invigorate
+              creative thinking and encourage collaboration among all
+              participants.
             </p>
             <p>
               The students will be guided by experienced mentors throughout
@@ -186,7 +236,8 @@ class Home extends Component {
             {/* Note for those unable to participate in SWOC */}
             <div className="note-section">
               <p>
-              Apply Before the Registration Timeline ends no requests will be entertained after registrations are closed.
+                Apply Before the Registration Timeline ends no requests will be
+                entertained after registrations are closed.
               </p>
             </div>
           </div>
@@ -236,10 +287,11 @@ class Home extends Component {
             <div className="overview-content">
               <h3>Overview</h3>
               <p>
-                Social Winter Of Code is the 2 month long open source program, with the aim to introduce more and more people to
-                the world of Open source. In this program all the selected
-                participants will get a chance to work on various exciting
-                projects under the guidance of experienced Mentors.
+                Social Winter Of Code is the 2 month long open source program,
+                with the aim to introduce more and more people to the world of
+                Open source. In this program all the selected participants will
+                get a chance to work on various exciting projects under the
+                guidance of experienced Mentors.
               </p>
               <p>
                 Participants can select the project based on their interest and
@@ -624,7 +676,35 @@ class Home extends Component {
             </Carousel>
           </div>
         </section>
-
+        <section className="join-follow">
+          <h3 className="join-title">Join and Follow Us</h3>
+          <div className="social-buttons">
+            <a
+              href="https://www.linkedin.com/company/scriptwinterofcode/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn linkedin"
+            >
+              <FontAwesomeIcon icon={faLinkedin} className="icon" /> LinkedIn
+            </a>
+            <a
+              href="https://chat.whatsapp.com/HkIXI7gE1UcEyOFzXaqeYr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn whatsapp"
+            >
+              <FontAwesomeIcon icon={faWhatsapp} className="icon" /> WhatsApp
+            </a>
+            <a
+              href="https://x.com/_SWOC"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn twitter"
+            >
+              <FontAwesomeIcon icon={faTwitter} className="icon" /> Twitter
+            </a>
+          </div>
+        </section>
         <section className="faqs">
           <h3 className="faq-title">FAQs</h3>
 
