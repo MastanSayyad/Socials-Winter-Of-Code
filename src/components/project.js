@@ -300,6 +300,19 @@ class Project extends Component {
                 />
               </div>
               <div className="p-prev-projs">
+              <button
+                  className="p-projs2025"
+                  type="button"
+                  onClick={() => {
+                    this.setState({
+                      projectList: projectsDataNewer,
+                      activeStack: "",
+                    });
+                    window.location.href = "#projs";
+                  }}
+                >
+                  2025 Projects
+                </button>
                 <button
                   className="p-projs2024"
                   type="button"
