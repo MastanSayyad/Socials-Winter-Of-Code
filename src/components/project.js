@@ -60,7 +60,7 @@ class Project extends Component {
           <div className="p-header-box">
             <div className="p-header row">
               <div className="p-header-content">
-                <h1>2024 Projects</h1>
+                <h1>2025 Projects</h1>
                 <p className="header-paragraph">
                   Social Winter of Code aims to bring students into the world of
                   open source development and see the power of unified
@@ -74,21 +74,21 @@ class Project extends Component {
                   the world of open-source.
                 </p>
                 <p>
-                  Projects of 2024 Will be Announced soon below are the 2023
+                  Projects of 2025 Will be Announced soon below are the 2024
                   Projects
                 </p>
               </div>
               <div className="p-header-vector">
                 <div className="p-vector">
                   <a href="./index.html">
-                    <img src={"./img/p-4.svg"} />
+                    <img src={"./img/projects.png"} />
                   </a>
                 </div>
               </div>
               <div>
                 <br></br>
                 <br></br>
-                <h1>Featured Project 2024</h1>
+                <h1>Featured Project 2025</h1>
                 <div>
                   <br></br>
                   {featured2024.map((item, index) => {

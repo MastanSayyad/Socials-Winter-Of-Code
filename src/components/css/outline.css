@@ -16,7 +16,7 @@
  .main-nav {
 	 display: flex;
 	 position: fixed;
-	 background: unset;
+	 background: #013e80;
 	 width: 100%;
 	 padding: 30px 8% 0;
 	 z-index: 1000;

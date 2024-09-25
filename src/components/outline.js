@@ -10,6 +10,7 @@ import Team from "./team2023";
 import BackToTopButton from "./GoToTop";
 import Sponsors from "./sponsors";
 import Footer from "./Footer";
+import Courses from "./Courses";
 
 const ScrollToTop = () => {
   const location = useLocation();
@@ -44,13 +45,16 @@ class Index extends Component {
 
   changeActivePage = () => {
     setTimeout(() => {
-      let currentPage = document
-        .getElementById("page-name")
-        .textContent.toLowerCase();
-      this.setState({ page: currentPage });
-    }, 100);
+      let pageElement = document.getElementById("page-name");
+      if (pageElement) {
+        let currentPage = pageElement.textContent.toLowerCase();
+        this.setState({ page: currentPage });
+      } else {
+        console.error("Element with ID 'page-name' not found.");
+      }
+    }, 0);
   };
-
+  
   componentDidMount() {
     window.addEventListener("scroll", this.handleScroll);
     window.addEventListener("resize", this.handleResize);
@@ -139,6 +143,9 @@ class Index extends Component {
           </Route>
           <Route exact path="/sponsors">
             <Sponsors />
+          </Route>
+          <Route exact path="/courses">
+            <Courses />
           </Route>
         </Switch>
 

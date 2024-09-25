@@ -130,6 +130,11 @@ class Home extends Component {
               alt="Bg"
               className="header-bg header-bg-component-9"
             />
+            <img
+              src="/Bg-03.png"
+              alt="Bg"
+              className="header-bg header-bg-component-10"
+            />
           </div>
         </header>
         {/* body */}
@@ -164,7 +169,7 @@ class Home extends Component {
           </div>
           <div className="about-vector">
             {/* <img src="./img/about.png" /> */}
-            <img src="./img/cat.gif" />
+            <img src="./img/aboutus.png" />
           </div>
         </section>
 
@@ -282,7 +287,7 @@ class Home extends Component {
         <section className="overview-section">
           <div className="body-content overview-container">
             <div className="overview-vector">
-              <img src="./img/overview.svg" />
+              <img src="./img/overview.png" />
             </div>
             <div className="overview-content">
               <h3>Overview</h3>
@@ -678,6 +683,7 @@ class Home extends Component {
         </section>
         <section className="join-follow">
           <h3 className="join-title">Join and Follow Us</h3>
+          <p>Become a part of our vibrant Social Winter of Code community and stay connected with like-minded developers, mentors, and enthusiasts. <br></br> Let's build together!</p>
           <div className="social-buttons">
             <a
               href="https://www.linkedin.com/company/scriptwinterofcode/"

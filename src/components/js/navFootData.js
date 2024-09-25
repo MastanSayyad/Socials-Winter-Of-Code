@@ -16,9 +16,13 @@ export const navItems = [
     url: "/team",
   },
   {
-    title: "Contact Us",
-    url: "/contact",
-  },
+  title: "Courses",
+  url: "/courses",
+},
+{
+  title: "Contact Us",
+  url: "/contact",
+},
 ];
 
 export const socialMedia = [

@@ -60,14 +60,28 @@
 	 color: var(--winter-w1);
 	 text-decoration: underline;
 }
- .p-header-vector {
-	/* width: 50%;
-	 */
-	 margin-top: auto;
+.p-header-vector {
+    margin-top: auto;
+    perspective: 1000px; 
 }
- .p-header-vector img {
-	 width: 355px;
+
+.p-header-vector img {
+    width: 464px;
+    transition: transform 0.1s ease, box-shadow 0.1s ease; 
+    transform: translateZ(0);
+    will-change: transform; 
+    animation: float 2.5s ease-in-out infinite; 
 }
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0); 
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
  .p-snow {
 	 position: relative;
 	/* z-index: 1000;

@@ -117,10 +117,20 @@
             top: 0px;
             right: 0px;
         }
-        .header-bg-component-3{
+        .header-bg-component-3 {
             width: 16rem;
             top: 0px;
-            left: -125px;
+            left: -129px;
+            animation: spin 10s linear infinite; 
+        }
+        
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
         }
         .header-bg-component-4{
             width: 20rem;
@@ -156,10 +166,38 @@
             z-index: 10;
         }
         .header-bg-component-9{
-            width: 2rem;
-            top: 8rem;
+            width: 2.5rem;
+            top: 7rem;
             right: 26rem;
-        }
+             animation: spin 10s linear infinite; 
+            }
+            
+            @keyframes spin {
+                from {
+                    transform: rotate(0deg);
+                }
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+
+            .header-bg-component-10{
+                width: 20rem;
+                top: 32.5rem;
+                right: 20rem;
+                opacity: 0.6;
+                animation: spin 10s linear infinite; 
+                }
+                
+                @keyframes spin {
+                    from {
+                        transform: rotate(0deg);
+                    }
+                    to {
+                        transform: rotate(360deg);
+                    }
+                }
+
         @media (max-width: 1100px) {
             .header-bg-component-1{
                 width: 40rem;
@@ -257,11 +295,34 @@
         .about-vector {
             height: 100%;
             margin-top: auto;
+            perspective: 1000px; 
+        }
+        
+        .about-vector img {
+            width: 500px;
+            transition: transform 0.1s ease, box-shadow 0.1s ease;
+            transform: translateZ(0); 
+            will-change: transform; 
+            animation: float 3s ease-in-out infinite; 
+        }
+        
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0); 
+            }
+            50% {
+                transform: translateY(-10px); 
+            }
         }
 
-        .about-vector img {
-            width: 365px;
+        .join-follow p {
+            font-size: 1.1rem; 
+            line-height: 1.5; 
+            padding: 30px; 
+            text-align: center; 
         }
+        
+                
 
         .past-numbers {
             display: flex;
@@ -614,14 +675,29 @@
             display: flex;
             justify-content: space-between;
         }
-
         .overview-vector {
             width: 300px;
+            perspective: 1000px; 
         }
-
+        
         .overview-vector img {
-            width: 100%;
+            width: 140%;
+            margin-left: -59px;
+            transition: transform 0.1s ease, box-shadow 0.1s ease; 
+            transform: translateZ(0); 
+            will-change: transform; 
+            animation: float 3s ease-in-out infinite; 
         }
+        
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0); 
+            }
+            50% {
+                transform: translateY(-10px); 
+            }
+        }
+        
 
         .overview-content {
             width: calc(100% - 380px);
@@ -1325,7 +1401,7 @@
 
         @media only screen and (max-width: 890px) {
             .about-vector img {
-                width: 220px;
+                width: 324px;
             }
 
             .about-content h3 {
@@ -1480,7 +1556,7 @@
             }
 
             .about-vector img {
-                width: 200px;
+                width: 324px;
             }
 
             .about-content h3 {
@@ -1553,7 +1629,7 @@
             }
 
             .about-vector img {
-                width: 150px;
+                width: 324px;
             }
 
             .about-content h3 {
@@ -1593,7 +1669,7 @@
             }
 
             .about-vector img {
-                width: 150px;
+                width: 324px;
             }
 
             .about-content h3 {
