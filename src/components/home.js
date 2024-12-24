@@ -105,7 +105,7 @@ class Home extends Component {
               alt="Bg"
               className="header-bg header-bg-component-4"
             />
-             <img
+            <img
               src="/Bg-04.png"
               alt="Bg"
               className="header-bg header-bg-component-5"
@@ -416,17 +416,18 @@ class Home extends Component {
                     </div>
                 </section> */}
 
-        {/* <section className="sponsors-section">
+        <section className="sponsors-section">
           <a name="sponsors"></a>
-          <div className="body-content powered-conatiner">
-                        <h3 className="">Powered by</h3>
-                        <img src={"/img/logos/Devfolio_Logo.svg"} />
-                    </div>
+          {/* <div className="body-content powered-conatiner">
+            <h3 className="">Powered by</h3>
+            <img src={"/img/logos/Devfolio_Logo.svg"} />
+          </div> */}
           <div className="body-content sponsors-conatiner">
-            <h3 className="sponsors-title">Our Sponsors</h3>
+            <h3 className="sponsors-title">Open Source Companies</h3>
+            <p className="sponsors-desc" >Companies supporting and contributing to open source</p>
             <br />
             <div className="community">
-              <div className="row">
+              {/* <div className="row">
                 <div className="col-md-12">
                   <h3>Sponsors</h3>
                   <br />
@@ -499,22 +500,25 @@ class Home extends Component {
                 </div>
 
                 <div className="col-md-6">
-                                    <h3>Platform Partners</h3>
-                                    <br />
-                                    <div className="community">
-                                        <div className="row row-img grid">
-                                            {PlatformPartners.map((item, index) => {
-                                            return (
-                                                <div className="col-12 img-div">
-                                                    <a href={item.sponsorLink} target="_blank">
-                                                        <img className="sponsor-img" src={item.sponsorImg} />
-                                                    </a>
-                                                </div>                                                
-                                            )
-                                            })}
-                                        </div>
-                                    </div>
-                                </div>
+                  <h3>Platform Partners</h3>
+                  <br />
+                  <div className="community">
+                    <div className="row row-img grid">
+                      {PlatformPartners.map((item, index) => {
+                        return (
+                          <div className="col-12 img-div">
+                            <a href={item.sponsorLink} target="_blank">
+                              <img
+                                className="sponsor-img"
+                                src={item.sponsorImg}
+                              />
+                            </a>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                </div>
               </div>
 
               <h3>Sponsors</h3>
@@ -532,26 +536,53 @@ class Home extends Component {
                     </div>
                   );
                 })}
-              </div>
+              </div> */}
 
-              <h3>Community Partners</h3>
-              <div className="row row-img grid mb-4">
-                {CommunityPartners.map((item, index) => {
-                  return (
-                    <div className="col-md-3 col-sm-6 img-div">
-                      <a href={item.sponsorLink} target="_blank">
+              {/* <h3>Community Partners</h3> */}
+              <div className="row row-img grid mb-4 sliding-container">
+                <div className="sliding-track">
+                  {CommunityPartners.slice(1, 4).map((item, index) => (
+                    <div
+                      className="col-md-3 col-sm-6 img-div sliding-item"
+                      key={index}
+                    >
+                      <a
+                        href={item.sponsorLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <img
                           className="sponsor-img"
                           src={item.sponsorImg}
                           alt={`Sponsor ${index}`}
                         />
                       </a>
+                      <p className="title">Title</p>
                     </div>
-                  );
-                })}
+                  ))}
+                  {CommunityPartners.slice(1, 4).map((item, index) => (
+                    <div
+                      className="col-md-3 col-sm-6 img-div sliding-item"
+                      key={`dup-${index}`}
+                    >
+                      <a
+                        href={item.sponsorLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <img
+                          className="sponsor-img"
+                          src={item.sponsorImg}
+                          alt={`Sponsor ${index}`}
+                        />
+                      </a>
+                      <p className="title">Title</p>
+                    </div>
+                  ))}
+                </div>
               </div>
 
-              <div
+              {/* <div
                 className="btn-container p-4"
                 style={{ "text-align": "center" }}
               >
@@ -563,10 +594,10 @@ class Home extends Component {
                 >
                   Sponsor Us
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
-        </section> */}
+        </section>
 
         {/* <section className="speaker-section">
           <h1>Speakers</h1>
@@ -683,7 +714,11 @@ class Home extends Component {
         </section>
         <section className="join-follow">
           <h3 className="join-title">Join and Follow Us</h3>
-          <p>Become a part of our vibrant Social Winter of Code community and stay connected with like-minded developers, mentors, and enthusiasts. <br></br> Let's build together!</p>
+          <p>
+            Become a part of our vibrant Social Winter of Code community and
+            stay connected with like-minded developers, mentors, and
+            enthusiasts. <br></br> Let's build together!
+          </p>
           <div className="social-buttons">
             <a
               href="https://www.linkedin.com/company/scriptwinterofcode/"

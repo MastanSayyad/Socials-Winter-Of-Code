@@ -5,6 +5,7 @@ import { projectsDataLatest } from "./js/2021projects";
 import { projectsDataPrevOne } from "./js/2020projects";
 import { featured2023, projectsData2023 } from "./js/2023projects";
 import { featured2024, projectsData2024 } from "./js/2024projects";
+import { projectsData2025 } from "./js/2025projects";
 import Particles from "react-particles-js";
 import { Snow } from "./snow";
 import Aos from "aos";
@@ -16,13 +17,13 @@ class Project extends Component {
     this.state = {
       width: window.innerWidth,
       height: window.innerHeight,
-      projectList: projectsData2024,
+      projectList: projectsData2025,
       randomColor: ["#fff"],
       activeStack: "",
       scrollStamp: 0,
       modalDisplay: "none",
       bodyOverflow: "initial",
-      modalData: projectsData2024[0],
+      modalData: projectsData2025[0],
     };
   }
 
@@ -155,7 +156,7 @@ class Project extends Component {
               <div className="md-card-left md-card-side">
                 <h3 className="md-card-left-title">Technologies</h3>
                 <ul className="md-card-left-container">
-                  {this.state.modalData.TechStack.map((item, index) => {
+                  {this.state.modalData?.TechStack?.map((item, index) => {
                     return <li>{item}</li>;
                   })}
                 </ul>
@@ -300,12 +301,21 @@ class Project extends Component {
                 />
               </div>
               <div className="p-prev-projs">
-              <button
+                <button
+                  className="p-projs2025"
+                  type="button"
+                  onClick={() => {
+                    window.location.href = "/";
+                  }}
+                >
+                  OSS Projects
+                </button>
+                <button
                   className="p-projs2025"
                   type="button"
                   onClick={() => {
                     this.setState({
-                      projectList: projectsDataNewer,
+                      projectList: projectsData2025,
                       activeStack: "",
                     });
                     window.location.href = "#projs";
@@ -401,9 +411,9 @@ class Project extends Component {
                   ) {
                     return proj;
                   } else if (
-                    proj.TechStack.toString()
-                      .toLowerCase()
-                      .includes(this.state.activeStack.toLowerCase())
+                    proj?.TechStack?.toString()
+                      ?.toLowerCase()
+                      ?.includes(this.state.activeStack.toLowerCase())
                   ) {
                     return proj;
                   }
@@ -435,6 +445,7 @@ class Project extends Component {
                       </div>
                       <div className="p-project-labels-container">
                         {item.TechStack.map((stackItem, stackIndex) => {
+                          console.log(item.github);
                           return (
                             <span
                               className="p-project-label"
